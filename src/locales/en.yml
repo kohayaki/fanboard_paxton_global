@@ -23,9 +23,9 @@ header:
 page:
   home:
     caution1Html: ※ This campaign is, we have been implemented would like to take advantage in the future of development your impressions I received Use the {brandName}. There is a very sorry to trouble you, but thank you for your participation in the </ span> questionnaire on the use of the <span class = "font-weight-bold"> more than 7 days. We are allowed to check the date of purchase by querying the order number of the site you purchased the goods, in the case of purchase of less than 7 days we no longer can join us. note that.
-    caution2Html: ※ even after the lapse of the 10 business days after receiving your answer, if the gift certificate is not sent, please contact the following address.
-    selectorLabel: Gift certificates to choose
-    selectorPlaceHolder: Select the card
+    caution2Html: 
+    selectorLabel: 
+    selectorPlaceHolder: 
   step1:
     approveTerms: We assorted that we agreed to information policy by clicking
     terms: Information policy
