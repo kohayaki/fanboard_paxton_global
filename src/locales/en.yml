@@ -47,7 +47,7 @@ page:
     transitToShop: (A transition to {shopLabel} in another tab)
     confirmedReviewVote: Make sure that the Review of the {shopLabel} has been completed
   complete:
-    receivedApplication: We have received your application
+    receivedApplication: Thank you for completing the survey.A one-year warranty has been applied.
     customerWithLine: 
     captionForLine: 
     customerWithoutLine: If you do not have a LINE

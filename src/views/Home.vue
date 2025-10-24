@@ -119,17 +119,6 @@
 
         <TermsLinkSection v-if="brand.termsURL" />
         
-            <div class="text-center py-4">
-            <a :href="brand.lineAddFriendUrl" target="_blank">
-              <img
-                style="width: auto;"
-                height="36"
-                border="0"
-                src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"
-              />
-            </a>
-          </div>
-        
       </v-container>
       
     </v-container>
