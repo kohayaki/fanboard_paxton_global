@@ -1,10 +1,10 @@
 name: paxton
 label: PAXTON
 title: PAXTON EXCLUSIVE REWARDS
-heroTitle: 
-heroContent: 
-  - type: starbucks_giftcard
-    amount: 0
+heroTitle: a
+heroContent: "" 
+  - type: amazon_giftcard
+    amount: 500
 shops:
   - id: official
     label: PAXTON Official
