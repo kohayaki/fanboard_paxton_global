@@ -1,7 +1,7 @@
 name: paxton
 label: PAXTON
 title: PAXTON EXCLUSIVE REWARDS
-heroTitle: a
+heroTitle:
 heroContent: "" 
 gifts:
   - type: starbucks_giftcard
@@ -221,7 +221,6 @@ questions:
         value: "Twitter" 
       - text: "Other"
         value: "Other"
-lineAddFriendUrl: https://lin.ee/i4uKlWb
 emailAddress: support@paxton.jp
 color:
   headerBackground: "#101733"
