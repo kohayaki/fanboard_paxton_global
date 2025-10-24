@@ -3,7 +3,7 @@ label: PAXTON
 title: PAXTON EXCLUSIVE REWARDS
 heroTitle: 
 heroContent: 
-  - type: starbucks_gift
+  - type: starbucks_giftcard
     amount: 0
 shops:
   - id: official
