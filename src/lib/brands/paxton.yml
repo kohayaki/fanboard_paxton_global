@@ -1,238 +1,216 @@
 name: paxton
 label: PAXTON
-title: PAXTON プレゼントキャンペーン
-heroTitle: アンケートへのご回答で、<br>メーカー1年保証 + お好きなギフト券500円分
-heroContent: この度はPAXTONをご購入頂きありがとうございます。下記フォームよりアンケートにご回答頂くと、漏れなくお好きなギフト券500円分(Amazonギフト券、QUOカードの中からご選択下さい)をプレゼントいたします。また、アンケートのご回答によりオーナー登録が完了し、メーカー1年保証の特典を受けることが可能となります。
+title: PAXTON EXCLUSIVE REWARDS
+heroTitle: a
+heroContent: "" 
 gifts:
   - type: amazon_giftcard
     amount: 500
-  - type: quocard
-    amount: 500
 shops:
-  - id: amazon
-    label: Amazon
-    url: https://www.amazon.co.jp/gp/css/order-history
-    masks: 
-      - "###-#######-#######"
-  - id: rakuten
-    label: 楽天
-    url: https://order.my.rakuten.co.jp/
-    masks:
-      - "######-########-######"
-      - "######-########-#######"
-      - "######-########-########"
-      - "######-########-##########"
-    reviewUrl: https://order.my.rakuten.co.jp/
   - id: official
-    label: PAXTON公式ストア
+    label: PAXTON Official
     url: https://paxton-official.com/
 questions:
-  - title: 氏名を入力してください
+  - title: Name
     type: text
     required: true
-    placeholder: 氏名を入力してください
-  - title: 性別をご回答ください
+    placeholder: Name
+  - title: Gender
     type: radio
     required: true
     options:
-      - label: 男性
-        value: 男
-      - label: 女性
-        value: 女
-  - title: 年齢をご回答ください
+      - label: Male
+        value: Male
+      - label: Female
+        value: Female
+  - title: Age
     type: select
     required: true
-    placeholder: 年齢を選択してください
+    placeholder: Age
     options:
-      - text: "20歳以下"
-        value: "20歳以下"
-      - text: "21-25歳"
-        value: "21-25歳"
-      - text: "26-30歳"
-        value: "26-30歳"
-      - text: "31-35歳"
-        value: "31-35歳"
-      - text: "36-40歳"
-        value: "36-40歳"
-      - text: "41-45歳"
-        value: "41-45歳"
-      - text: "46-50歳"
-        value: "46-50歳"
-      - text: "51-55歳"
-        value: "51-55歳"
-      - text: "56-60歳"
-        value: "56-60歳"
-      - text: "60歳以上"
-        value: "60歳以上"
-  - title: 商品はどなたがご使用になりますか？
+      - text: "Under 20yo"
+        value: "Under 20yo"
+      - text: "21-25yo"
+        value: "21-25yo"
+      - text: "26-30yo"
+        value: "26-30yo"
+      - text: "31-35yo"
+        value: "31-35yo"
+      - text: "36-40yo"
+        value: "36-40yo"
+      - text: "41-45yo"
+        value: "41-45yo"
+      - text: "46-50yo"
+        value: "46-50yo"
+      - text: "51-55yo"
+        value: "51-55yo"
+      - text: "56-60yo"
+        value: "56-60yo"
+      - text: "Over 60yo"
+        value: "Over 60yo"
+  - title: Who will use this product?
     type: select
     required: true
-    placeholder: 商品はどなたがご使用になりますか？
+    placeholder: Who will use this product?
     options:
-      - text: "自分用"
-        value: "自分用"
-      - text: "家族用"
-        value: "家族用"
-      - text: "業務用"
-        value: "業務用"
-      - text: "プレゼント用"
-        value: "プレゼント用"
-      - text: "その他"
-        value: "その他"
-  - title: 利用目的をご回答ください
+      - text: "For myself"
+        value: "For myself"
+      - text: "For family"
+        value: "For family"
+      - text: "For business use"
+        value: "For business use"
+      - text: "As a gift"
+        value: "As a gift"
+      - text: "Other"
+        value: "Other"
+  - title: Please select the purpose of use. 
     type: select
     required: true
-    placeholder: 利用シーン
+    placeholder: Please select the purpose of use.
     options:
-      - text: "仕事"
-        value: "仕事"
-      - text: "ゲーム"
-        value: "ゲーム"
-      - text: "オンライン授業"
-        value: "オンライン授業"
-      - text: "パソコン作業"
-        value: "パソコン作業"
-      - text: "映画鑑賞"
-        value: "映画鑑賞"
-      - text: "その他"
-        value: "その他"
-  - title: 利用場所をご回答ください
+      - text: "Work "
+        value: "Work "
+      - text: "Gaming"
+        value: "Gaming"
+      - text: "Online classes"
+        value: Online classes"
+      - text: "Computer work"
+        value: "Computer work"
+      - text: "Reading"
+        value: "Reading"
+      - text: "Entertainment"
+        value: "Entertainment"
+      - text: "Other"
+        value: "Other"
+  - title: Where will you mainly use this product?
     type: select
     required: true
-    placeholder: 利用場所
+    placeholder: Where will you mainly use this product?
     options:
-      - text: "書斎"
-        value: "書斎"
-      - text: "リビング"
-        value: "リビング"
-      - text: "子供部屋"
-        value: "子供部屋"
-      - text: "寝室"
-      - value: "寝室"
-      - text: "オフィス"
-        value: "オフィス"
-      - text: "その他"
-        value: "その他"
-  - title: ご購入前はどのような商品を使用していましたか？
+      - text: "At work"
+        value: "At work"
+      - text: "Home office"
+        value: "Home office"
+      - text: "Living room"
+        value: "Living room"
+      - text: "Kids'room"
+      - value: "Kids' room"
+      - text: "Bedroom"
+        value: "Bedroom"
+      - text: "Other"
+        value: "Other"
+  - title: What kind of chair were you using before this purchase?
     type: select
     required: true
-    placeholder: ご購入前はどのような商品を使用していましたか？
+    placeholder: What kind of chair were you using before this purchase?
     options:
-      - text: "他のゲーミングチェア"
-        value: "他のゲーミングチェア"
-      - text: "オフィスチェア"
-        value: "オフィスチェア"
-      - text: "ダイニングチェア"
-        value: "ダイニングチェア"
-      - text: "座椅子"
-        value: "座椅子"
-      - text: "使用してなかった"
-        value: "使用してなかった"
-      - text: "その他"
-        value: "その他"
-  - title: ゲーミングチェアを選ぶ基準(重要視する指標)は何ですか
+      - text: "Another gaming chair"
+        value: "Another gaming chair"
+      - text: "Office chair"
+        value: "Office chair"
+      - text: "Dining chair"
+        value: "Dining chair"
+      - text: "Other"
+        value: "Other"
+  - title: What do you consider most important when choosing a gaming chair?
     type: select
     required: true
-    placeholder: ゲーミングチェアを選ぶ基準(重要視する指標)は何ですか
+    placeholder: What do you consider most important when choosing a gaming chair?
     options:
-      - text: "デザイン"
-        value: "デザイン"
-      - text: "座り心地"
-        value: "座り心地"
-      - text: "機能性"
-        value: "機能性"
-      - text: "耐久性"
-        value: "耐久性"
-      - text: "コストパフォーマンス"
-        value: "コストパフォーマンス"
-      - text: "組立易さ"
-        value: "組立易さ"
-      - text: "その他"
-        value: "その他"
-  - title: デザイン性で重視する要素は何ですか
+      - text: "Design"
+        value: "Design"
+      - text: "Functionality"
+        value: "Functionality"
+      - text: "Durability"
+        value: "Durability"
+      - text: "Value for money"
+        value: "Value for money"
+      - text: "Ease of assembly"
+        value: "Ease of assembly"
+      - text: "Other"
+        value: "Other"
+  - title: Which design aspects are most important to you?
     type: select
     required: true
-    placeholder: デザイン性で重視する要素は何ですか
+    placeholder: Which design aspects are most important to you?
     options:
-      - text: "インテリアとの調和性"
-        value: "インテリアとの調和性"
-      - text: "洗練さ"
-        value: "洗練さ"
-      - text: "カッコよさ"
-        value: "カッコよさ"
-      - text: "高級感"
-        value: "高級感"
-      - text: "e-Sports感"
-        value: "e-Sports感"
-      - text: "未来感"
-        value: "未来感"
-      - text: "その他"
-        value: "その他"
-  - title: 機能性で重視するポイントは何ですか
+      - text: "Fits well with interior decor"
+        value: "Fits well with interior decor"
+      - text: "Sophisticated look"
+        value: "Sophisticated look"
+      - text: "Stylish appearance"
+        value: "Stylish appearance"
+      - text: "Premium feel"
+        value: "Premium feel"
+      - text: "E-sports vibe"
+        value: "E-sports vibe"
+      - text: "Futuristic design"
+        value: "Futuristic design"
+      - text: "Other"
+        value: "Other"
+  - title: Which features matter most to you in terms of functionality?
     type: select
     required: true
-    placeholder: 機能性で重視するポイントは何ですか
+    placeholder: Which features matter most to you in terms of functionality?
     options:
-      - text: "クッション性"
-        value: "クッション性"
-      - text: "背中・腰のサポート力"
-        value: "背中・腰のサポート力"
-      - text: "着座安定感"
-        value: "着座安定感"
-      - text: "通気性"
-        value: "通気性"
-      - text: "リクライニング"
-        value: "リクライニング"
-      - text: "座面昇降式"
-        value: "座面昇降式"
-      - text: "フットレスト付き"
-        value: "フットレスト付き"
-      - text: "調節可能アームレスト"
-        value: "調節可能アームレスト"
-      - text: "その他"
-        value: "その他"
-  - title: 他に迷った商品があれば教えてください
+      - text: "Cushion comfort"
+        value: "Cushion comfort"
+      - text: "Back and lumbar support"
+        value: "Back and lumbar support"
+      - text: "Seating stability"
+        value: "Seating stability"
+      - text: "Breathability"	
+        value: "Breathability"
+      - text: "Reclining function"
+        value: "Reclining function"
+      - text: "Footrest"
+        value: "Footrest"
+      - text: "Adjustable armrests"
+        value: "Adjustable armrests"
+      - text: "Other"
+        value: "Other"
+  - title: Were there any other products you considered before making your purchase?
     type: text
     required: true
-    placeholder: 他に迷った商品があれば入力してください
-  - title: 購入の決め手を教えてください(PAXTONのどこに魅力を感じましたか)
+    placeholder: Were there any other products you considered before making your purchase?
+  - title: What made you decide to purchase this product? (What attracted you to PAXTON?)
     type: text
     required: true
-    placeholder: 購入の決め手を教えてください(PAXTONのどこに魅力を感じましたか)
-  - title: 本商品を検索したときのキーワードをご回答ください
+    placeholder: What made you decide to purchase this product? (What attracted you to PAXTON?)
+  - title: What keywords did you use when searching for this product?
     type: select
     required: true
-    placeholder: 本商品を検索したときのキーワードをご回答ください
+    placeholder: What keywords did you use when searching for this product?
     options:
-      - text: "ゲーミングチェア"
-        value: "ゲーミングチェア"
-      - text: "仕事用ゲーミングチェア"
-        value: "仕事用ゲーミングチェア"
-      - text: "オフィスチェア"
-        value: "オフィスチェア"
-      - text: "パソコンチェア"
-        value: "パソコンチェア"
-      - text: "リクライニングチェア"
-        value: "リクライニングチェア"
+      - text: "Gaming chair"
+        value: "Gaming chair"
+      - text: "Gaming chair for work"
+        value: "Gaming chair for work"
+      - text: "Office chair"
+        value: "Office chair"
+      - text: "Chair"
+        value: "Chair"
+      - text: "Computer chair"
+        value: "Computer chair"
+      - text: "Reclining chair"
+        value: "Reclining chair"
       - text: "PAXTON"
         value: "PAXTON"
-      - text: "その他"
-        value: "その他"
-  - title: 本商品を他の人に勧めるとしたら何と言って勧めますか？
+      - text: "Other"
+        value: "Other"
+  - title: If you were to recommend this product to someone, what would you say?
     type: text
     required: true
-    placeholder: 本商品を他の人に勧めるとしたら何と言って勧めますか？ 
-  - title: 本商品を最初にご覧になった媒体を教えて下さい。
+    placeholder: If you were to recommend this product to someone, what would you say?
+  - title: Where did you first learn about this product?
     type: select
     required: true
-    placeholder: 本商品を最初にご覧になった媒体を教えて下さい。
+    placeholder: Where did you first learn about this product?
     options:
       - text: "Amazon"
         value: "Amazon"
       - text: "Google"
         value: "Google"
-      - text: "ヤフー"
-        value: "ヤフー"
       - text: "Facebook"
         value: "Facebook"
       - text: "Youtube"
@@ -241,20 +219,8 @@ questions:
         value: "instagram"  
       - text: "Twitter"
         value: "Twitter" 
-      - text: "その他"
-        value: "その他"
-  - title: 本商品を購入された時にお使いのデバイスを教えて下さい。
-    type: radio
-    required: true
-    options:
-      - label: スマートフォン
-        value: スマートフォン
-      - label: PC
-        value: PC
-      - label: タブレット
-        value: タブレット
-      - label: その他
-        value: その他
+      - text: "Other"
+        value: "Other"
 lineAddFriendUrl: https://lin.ee/i4uKlWb
 emailAddress: support@paxton.jp
 color:
