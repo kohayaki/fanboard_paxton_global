@@ -14,10 +14,6 @@
       </v-card-text>
       <v-card-text v-else-if="type == 'starbucks_giftcard'">
         <img class="py-0" style="width:95%;" src="@/assets/starbucks_gift.png" />
-        <div class="pt-2 pl-4">
-          <span class="display-2 green--text text--darken-3">{{amount}}</span>
-          <span class="pl-1 title green--text text--darken-3">{{ $t('gift.currency') }}</span>
-        </div>
       </v-card-text>
       <v-card-text v-else-if="type == 'quocard'">
         <img class="py-0" style="width:50%;" src="@/assets/quocard.jpg" />

@@ -4,7 +4,7 @@ title: PAXTON EXCLUSIVE REWARDS
 heroTitle: a
 heroContent: "" 
 gifts:
-  - type: amazon_giftcard
+  - type: starbucks_giftcard
     amount: 500
 shops:
   - id: official
