@@ -1,0 +1,266 @@
+name: paxton
+label: PAXTON
+title: PAXTON プレゼントキャンペーン
+heroTitle: アンケートへのご回答で、<br>メーカー1年保証 + お好きなギフト券500円分
+heroContent: この度はPAXTONをご購入頂きありがとうございます。下記フォームよりアンケートにご回答頂くと、漏れなくお好きなギフト券500円分(Amazonギフト券、QUOカードの中からご選択下さい)をプレゼントいたします。また、アンケートのご回答によりオーナー登録が完了し、メーカー1年保証の特典を受けることが可能となります。
+gifts:
+  - type: amazon_giftcard
+    amount: 500
+  - type: quocard
+    amount: 500
+shops:
+  - id: amazon
+    label: Amazon
+    url: https://www.amazon.co.jp/gp/css/order-history
+    masks: 
+      - "###-#######-#######"
+  - id: rakuten
+    label: 楽天
+    url: https://order.my.rakuten.co.jp/
+    masks:
+      - "######-########-######"
+      - "######-########-#######"
+      - "######-########-########"
+      - "######-########-##########"
+    reviewUrl: https://order.my.rakuten.co.jp/
+  - id: official
+    label: PAXTON公式ストア
+    url: https://paxton-official.com/
+questions:
+  - title: 氏名を入力してください
+    type: text
+    required: true
+    placeholder: 氏名を入力してください
+  - title: 性別をご回答ください
+    type: radio
+    required: true
+    options:
+      - label: 男性
+        value: 男
+      - label: 女性
+        value: 女
+  - title: 年齢をご回答ください
+    type: select
+    required: true
+    placeholder: 年齢を選択してください
+    options:
+      - text: "20歳以下"
+        value: "20歳以下"
+      - text: "21-25歳"
+        value: "21-25歳"
+      - text: "26-30歳"
+        value: "26-30歳"
+      - text: "31-35歳"
+        value: "31-35歳"
+      - text: "36-40歳"
+        value: "36-40歳"
+      - text: "41-45歳"
+        value: "41-45歳"
+      - text: "46-50歳"
+        value: "46-50歳"
+      - text: "51-55歳"
+        value: "51-55歳"
+      - text: "56-60歳"
+        value: "56-60歳"
+      - text: "60歳以上"
+        value: "60歳以上"
+  - title: 商品はどなたがご使用になりますか？
+    type: select
+    required: true
+    placeholder: 商品はどなたがご使用になりますか？
+    options:
+      - text: "自分用"
+        value: "自分用"
+      - text: "家族用"
+        value: "家族用"
+      - text: "業務用"
+        value: "業務用"
+      - text: "プレゼント用"
+        value: "プレゼント用"
+      - text: "その他"
+        value: "その他"
+  - title: 利用目的をご回答ください
+    type: select
+    required: true
+    placeholder: 利用シーン
+    options:
+      - text: "仕事"
+        value: "仕事"
+      - text: "ゲーム"
+        value: "ゲーム"
+      - text: "オンライン授業"
+        value: "オンライン授業"
+      - text: "パソコン作業"
+        value: "パソコン作業"
+      - text: "映画鑑賞"
+        value: "映画鑑賞"
+      - text: "その他"
+        value: "その他"
+  - title: 利用場所をご回答ください
+    type: select
+    required: true
+    placeholder: 利用場所
+    options:
+      - text: "書斎"
+        value: "書斎"
+      - text: "リビング"
+        value: "リビング"
+      - text: "子供部屋"
+        value: "子供部屋"
+      - text: "寝室"
+      - value: "寝室"
+      - text: "オフィス"
+        value: "オフィス"
+      - text: "その他"
+        value: "その他"
+  - title: ご購入前はどのような商品を使用していましたか？
+    type: select
+    required: true
+    placeholder: ご購入前はどのような商品を使用していましたか？
+    options:
+      - text: "他のゲーミングチェア"
+        value: "他のゲーミングチェア"
+      - text: "オフィスチェア"
+        value: "オフィスチェア"
+      - text: "ダイニングチェア"
+        value: "ダイニングチェア"
+      - text: "座椅子"
+        value: "座椅子"
+      - text: "使用してなかった"
+        value: "使用してなかった"
+      - text: "その他"
+        value: "その他"
+  - title: ゲーミングチェアを選ぶ基準(重要視する指標)は何ですか
+    type: select
+    required: true
+    placeholder: ゲーミングチェアを選ぶ基準(重要視する指標)は何ですか
+    options:
+      - text: "デザイン"
+        value: "デザイン"
+      - text: "座り心地"
+        value: "座り心地"
+      - text: "機能性"
+        value: "機能性"
+      - text: "耐久性"
+        value: "耐久性"
+      - text: "コストパフォーマンス"
+        value: "コストパフォーマンス"
+      - text: "組立易さ"
+        value: "組立易さ"
+      - text: "その他"
+        value: "その他"
+  - title: デザイン性で重視する要素は何ですか
+    type: select
+    required: true
+    placeholder: デザイン性で重視する要素は何ですか
+    options:
+      - text: "インテリアとの調和性"
+        value: "インテリアとの調和性"
+      - text: "洗練さ"
+        value: "洗練さ"
+      - text: "カッコよさ"
+        value: "カッコよさ"
+      - text: "高級感"
+        value: "高級感"
+      - text: "e-Sports感"
+        value: "e-Sports感"
+      - text: "未来感"
+        value: "未来感"
+      - text: "その他"
+        value: "その他"
+  - title: 機能性で重視するポイントは何ですか
+    type: select
+    required: true
+    placeholder: 機能性で重視するポイントは何ですか
+    options:
+      - text: "クッション性"
+        value: "クッション性"
+      - text: "背中・腰のサポート力"
+        value: "背中・腰のサポート力"
+      - text: "着座安定感"
+        value: "着座安定感"
+      - text: "通気性"
+        value: "通気性"
+      - text: "リクライニング"
+        value: "リクライニング"
+      - text: "座面昇降式"
+        value: "座面昇降式"
+      - text: "フットレスト付き"
+        value: "フットレスト付き"
+      - text: "調節可能アームレスト"
+        value: "調節可能アームレスト"
+      - text: "その他"
+        value: "その他"
+  - title: 他に迷った商品があれば教えてください
+    type: text
+    required: true
+    placeholder: 他に迷った商品があれば入力してください
+  - title: 購入の決め手を教えてください(PAXTONのどこに魅力を感じましたか)
+    type: text
+    required: true
+    placeholder: 購入の決め手を教えてください(PAXTONのどこに魅力を感じましたか)
+  - title: 本商品を検索したときのキーワードをご回答ください
+    type: select
+    required: true
+    placeholder: 本商品を検索したときのキーワードをご回答ください
+    options:
+      - text: "ゲーミングチェア"
+        value: "ゲーミングチェア"
+      - text: "仕事用ゲーミングチェア"
+        value: "仕事用ゲーミングチェア"
+      - text: "オフィスチェア"
+        value: "オフィスチェア"
+      - text: "パソコンチェア"
+        value: "パソコンチェア"
+      - text: "リクライニングチェア"
+        value: "リクライニングチェア"
+      - text: "PAXTON"
+        value: "PAXTON"
+      - text: "その他"
+        value: "その他"
+  - title: 本商品を他の人に勧めるとしたら何と言って勧めますか？
+    type: text
+    required: true
+    placeholder: 本商品を他の人に勧めるとしたら何と言って勧めますか？ 
+  - title: 本商品を最初にご覧になった媒体を教えて下さい。
+    type: select
+    required: true
+    placeholder: 本商品を最初にご覧になった媒体を教えて下さい。
+    options:
+      - text: "Amazon"
+        value: "Amazon"
+      - text: "Google"
+        value: "Google"
+      - text: "ヤフー"
+        value: "ヤフー"
+      - text: "Facebook"
+        value: "Facebook"
+      - text: "Youtube"
+        value: "Youtube"
+      - text: "instagram"
+        value: "instagram"  
+      - text: "Twitter"
+        value: "Twitter" 
+      - text: "その他"
+        value: "その他"
+  - title: 本商品を購入された時にお使いのデバイスを教えて下さい。
+    type: radio
+    required: true
+    options:
+      - label: スマートフォン
+        value: スマートフォン
+      - label: PC
+        value: PC
+      - label: タブレット
+        value: タブレット
+      - label: その他
+        value: その他
+lineAddFriendUrl: https://lin.ee/i4uKlWb
+emailAddress: support@paxton.jp
+color:
+  headerBackground: "#101733"
+  headerTitle: "#fff"
+  heroBackground: "#efebe9"
+  heroTitle: "#917e3f"
+  heroContent: "#666"
+  brand: "#ad9858"

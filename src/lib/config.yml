@@ -1,0 +1,6 @@
+apiEndpoint: 'https://script.google.com/macros/s/AKfycbxjFLkwkRbmw3dRAlyHeJh9bWPYKXHfx7UI-FoXTNpvf4FUlpMAidXqqwRRsDjHdyZ4mQ/exec'
+locale: ja
+brands:
+  - paxton.yml
+  - paxton_paris_enquete.yml
+  - paxton_monitor_arm.yml

@@ -1,0 +1,116 @@
+# 文字列の頭に{shopLabel}などを使う場合は文章全体を「"」で囲ってください
+
+# ギフト
+gift:
+  currency: $
+  amazon:
+    name: Amazon gift card
+  starbucks:
+    name: Starbucks gift card
+  quocard:
+    name: Quo card
+  giftcard:
+    name: Gift card
+
+# アンケート中のヘッダーのステップ表示
+header:
+  step1: Confirmation of order details
+  step2: Review check of goods
+  step3: Survey responses
+  step4: Write a Review
+
+# トップページ関連
+page:
+  home:
+    caution1Html: ※ This campaign is, we have been implemented would like to take advantage in the future of development your impressions I received Use the {brandName}. There is a very sorry to trouble you, but thank you for your participation in the </ span> questionnaire on the use of the <span class = "font-weight-bold"> more than 7 days. We are allowed to check the date of purchase by querying the order number of the site you purchased the goods, in the case of purchase of less than 7 days we no longer can join us. note that.
+    caution2Html: ※ even after the lapse of the 10 business days after receiving your answer, if the gift certificate is not sent, please contact the following address.
+    selectorLabel: Gift certificates to choose
+    selectorPlaceHolder: Select the card
+  step1:
+    approveTerms: We assorted that we agreed to information policy by clicking
+    terms: Information policy
+  step2:
+  step3:
+    star5: ★★★★★ satisfaction
+    star4: ★★★★ Somewhat satisfied
+    star3: ★★★ impossible without also permitted without
+    star2: ★★ unsatisfactory point is slightly higher
+    star1: ★ All is unsatisfactory
+  step3ReviewVote:
+    thanksMessageHtml: Thank you for your reply. The <br/> that had you empathy impressions, please help us to other customers to easily reference. <br/> <br/> open the link here of Amazon.co.jp, please click the button found the following review. <br/> (link will open in a new tab)
+    reviewChecked: Has completed
+    sympathize: Sympathize
+    unsympathize: Not sympathy
+  step3ImageTest:
+  step4:
+    copyImpression: Post by copying your impressions
+    transitToShop: (A transition to {shopLabel} in another tab)
+    confirmedReviewVote: Make sure that the Review of the {shopLabel} has been completed
+  complete:
+    receivedApplication: We have received your application
+    customerWithLine: 
+    captionForLine: 
+    customerWithoutLine: If you do not have a LINE
+    captionForEmail: It causes very sorry to trouble you, please do not send your order number to the address below address. As soon as possible to confirm the order is, we will receive a {giftCard} by E-mail.
+    thanks: Thank you for this time I received valuable opinions!
+  completeFollowUp:
+    text1: This campaign is the case from the purchase of less than 7 days we no longer can join us. We apologize for the trouble, but please try again after a lapse of 7 days.
+    text2: this.$store.state.form.orderId
+question:
+  order:
+    title: Please enter your order number
+    subTitle: ※ The subject's subject is the sideage of the entrance of the mobile phone of {shopLink}
+    placeholder: order number
+    hint: Entry Example：123-4567890-1234567
+  product:
+    title: Please select the items you want to review
+  satisfaction:
+    title: Please evaluate the satisfaction of the product in 5 steps
+    placeholder: Please select a satisfaction
+  imageTest:
+    title: Please select an image that will want to click in this order
+  reviewVote:
+    title: The following is an impression of this product that we receive from our customers. Please tell me if there is a thing that was empathy.
+  reviewContent:
+    title: Impressions of goods purchased
+    subTitle: I have to ask you what you think of products that have purchased for future product development
+    placeholder: Please fill your impressions of the product
+  reviewCheck:
+    title: Post to {shopLabel}
+    subTitle: Post to {shopLabel} is thank you to check in to the check mark if you have completed
+  shopSelect:
+    title: Please select a shop who purchased items
+  improvement:
+    title: Please tell me if there is an improvement of the product
+    placeholder: Please fill in the improvements
+  email:
+    title: E-mail address
+    subTitle: We will receive a gift certificate by E-mail, thank you for your confirmation of the description sure.
+    placeholder: Please fill in the E-mail address
+
+# バリデーションエラー
+validation:
+  required: Please enter
+  requiredSelect: Please select
+  requiredSelectCheckbox: Please select one or more
+  min: "{num} Please enter more characters"
+  max: "{num} Please enter characters or less"
+  email: Please confirm your email address
+  emailAtMark: Please enter half-width of the @
+  emailSpace: It contains a half-width space
+  orderIdMask: Please enter the correct order number
+
+# その他エラー
+error:
+  sendLater: An error could not be sent because it was generated. Please send again after waiting for a while
+  enterCorrectOrderId: Please enter a correct order number
+  shouldApplyAfterOneWeek: You must be at least 7 days old from the date of purchase to receive this promotion
+
+# ボタン文言
+button:
+  selectCard: Please select a card
+  selectProduct: Please select the items
+  apply: Apply
+  next: next
+  reset: Redo
+  send: Send letter
