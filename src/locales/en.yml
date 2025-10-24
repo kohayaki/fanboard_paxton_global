@@ -2,7 +2,7 @@
 
 # ギフト
 gift:
-  currency: $
+  currency: year
   amazon:
     name: Amazon gift card
   starbucks:
